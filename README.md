@@ -1,4 +1,4 @@
-# Sparklin Expense Tracker
+# Voice Expense Tracker
 
 ## Introduction
 
