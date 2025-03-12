@@ -1,0 +1,11 @@
+.MuiList-root {
+    max-height: 222px !important;
+}
+
+.MuiList-padding{
+    max-height: 220px;
+}
+
+.MuiListItemText-primary, .MuiListItemText-secondary{
+    color: white !important;
+}

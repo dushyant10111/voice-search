@@ -1,0 +1,89 @@
+.title-tile{
+    width: 22%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.main-cardcontent .balance-info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    width: 22%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    position: relative;
+    padding-top: 4%;
+color: #FFFFFF;
+}
+
+.daXexc{
+    width: 80% !important;
+}
+
+.list-of-tracking-items{
+    position: absolute;
+    bottom: 80px;
+    left: 5rem;
+    background: rgba(49, 47, 47, 0.905656);
+    border: 1px solid #5D5A5A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 50%;
+    width: 50%;
+}
+
+.main-cardcontent{
+    height: 35rem;
+}
+
+
+.heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.toggle-button{
+    background: #4B30F1;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    outline: none;
+    position: absolute;
+    bottom: 30px;
+    left: 7%;
+}

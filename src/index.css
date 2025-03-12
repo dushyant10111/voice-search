@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,600,700,900&display=swap");
+
+
+#root, body, html {
+    height: 100%;
+    margin: 0;
+}
+
+      .scrollX{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: flex;
+      }
+
+      .wrapper-container{
+        padding: 10%;
+      }
+      .main-window{
+        background: rgba(0, 0, 0, 0.795431);
+        border: 1px solid #979797;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 11px 8px rgba(0, 0, 0, 0.5);
+        position: relative;
+      }
+      .doughnut-window{
+        position: absolute;
+        bottom: 10%;
+        left: 4%;
+      }
+      .doughnut-info{ 
+      
+    display: flex;
+    padding: 1rem;
+      }
+
+      .white-capital-font{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+      }
+
+      .lady{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+
+      .MuiList-root {
+        max-height: 222px !important;
+    }
+
+    .MuiListItemText-primary, .MuiListItemText-secondary{
+      color: white !important;
+  }
+
+  .sc-jSgupP{
+    width: 80% !important;
+}
